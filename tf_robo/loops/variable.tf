@@ -1,6 +1,6 @@
-variable "instance-name" {
+variable "instance_name" {
     type = list 
-    default = [ "mongodb","redis","mysql","web","user","cart","shopping","payment","rating","rabitmq","dispatch",]
+    default = ["mongodb","redis","mysql","web","user","cart","shopping","payment","rating","rabitmq","dispatch",]
   
 }
 
